@@ -2,10 +2,10 @@
 
 :root {
     --dash-color:  rgb(194, 161, 138);
-    --font-color-sample-1:rgb(116, 116, 116);
-    --font-color-sample-2:rgb(56, 56, 56);
+    --main-color:rgb(116, 116, 116);
+    --font-color-sample-1:rgb(56, 56, 56);
     --font-rufina-family: 'Rufina', serif; 
     --font-nunito-family: 'Nunito', sans-serif;
 }
 
-
+    
