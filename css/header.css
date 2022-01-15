@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
-
+.header__slogan__dash{
+    color:var(--dash-color);
+}
 .header__introduction {
-    font-family: Nunito, sans-serif;
+    font-family:var(--font-nunito-family);
     font-size: 12px;
-    color: rgb(121, 121, 121);
+    color: var(--font-color-sample-2);
 }
 
 .header__slogan {
-    color: rgb(56, 56, 56);
+    color: var(--font-color-sample-1);
     font-size: 28px;
-    font-family: Rufina, serif;
+    font-family:var(--font-rufina-family);
 }
 
 .header__our-description {

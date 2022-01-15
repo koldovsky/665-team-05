@@ -47,7 +47,7 @@
     width: 25%;
 }
 .main__about-us__right__article-box__text{
-font-family:var(--font-nunito-family);
+    font-family:var(--font-nunito-family);
     font-style: normal;
     font-size:17px;
     color:var(--main-color);
