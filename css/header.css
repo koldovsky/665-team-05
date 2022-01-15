@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
 
-.headerintroduction {
+.header__introduction {
     font-family: Nunito, sans-serif;
     font-size: 12px;
     color: rgb(121, 121, 121);
 }
 
-.headerslogan {
+.header__slogan {
     color: rgb(56, 56, 56);
     font-size: 28px;
     font-family: Rufina, serif;
