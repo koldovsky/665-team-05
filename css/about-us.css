@@ -1,0 +1,27 @@
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rufina&display=swap');
+
+.main__about-us__footer__text__dash{
+    color:var(--dash-color)
+}
+.main__about-us__right__article-name-box__name__dash{
+    color:var(--dash-color)
+}
+.main__about-us__left__img-box__img{
+    display: block;
+    width:25%;
+}
+.main__about-us__right__img-box__img{
+    display: block;
+    width:25%;
+}
+.main__about-us__text-box__text{
+    font-family: 'Rufina', serif;
+    font-style: italic;
+    font-size:25px;
+    color:rgb(116, 116, 116);
+    display: block;
+    width: 25%;
+
+}
+font-family: 'Nunito', sans-serif;
