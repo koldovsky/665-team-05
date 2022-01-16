@@ -9,4 +9,17 @@
     --font-nunito-family: 'Nunito', sans-serif;
 }
 
-    
+h3 {
+    font-family:var(--font-rufina-family);
+    font-style: normal;
+    font-weight:400;
+    font-size:48px;
+    color:var(--font-color-sample-1);
+}
+  
+h4 {
+    font-family: var(--font-nunito-family);
+    font-size: 22px;
+    font-weight: 600;
+}
+
