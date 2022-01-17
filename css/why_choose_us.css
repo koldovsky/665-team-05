@@ -12,3 +12,16 @@
 why_choose_us__text__slogan__text{
     font-family:var(--font-rufina-family)
 }
+.why_choose_us__lean-more-link {
+    color: var(--font-color-sample-1);
+    font-weight: 600;
+    line-height: normal;
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    border-style: solid;
+}
+
+.why_choose_us__lean-more-link:hover {
+    background-color: var(--font-color-sample-1);
+    color: white;
+    border-color: var(--font-color-sample-1);
