@@ -5,6 +5,7 @@
     font-family:var(--font-nunito-family);
     font-size: 12px;
     color: var(--font-color-sample-2);
+    font-weight: 800;
 }
 
 .header__slogan {
@@ -17,6 +18,35 @@
     color: var(--main-color);
     font-weight: 400;
     font-size: 19px;
+}
+
+.header__about-us-link-button-black {
+    color: var(--font-color-sample-1);
+    font-weight: 600;
+    line-height: normal;
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    border-style: solid;
+}
+
+.header__about-us-link-button-black:hover {
+    background-color: var(--font-color-sample-1);
+    color: white;
+    border-color: var(--font-color-sample-1);
+}
+
+.header__shop-now-link-button-white {
+    border-style: solid;
+    border-color: var(--font-color-sample-1);  
+    background-color: var(--font-color-sample-1);
+    margin: 1px;
+}
+
+.header__info {
+    background-color: white;
+    margin-right: 700px;
+    padding-bottom: 15px;
+    margin-left: 15px;
 }
 
 /* Sofiia block start */
