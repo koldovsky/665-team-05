@@ -1,6 +1,8 @@
+
 .header__slogan__dash{
     color:var(--dash-color);
 }
+/* Roman Grycyshyn Block Start */
 .header__introduction {
     font-family:var(--font-nunito-family);
     font-size: 12px;
@@ -48,7 +50,7 @@
     padding-bottom: 15px;
     margin-left: 15px;
 }
-
+/* Roman Grycyshyn Block Start */
 /* Sofiia block start */
 a{
     color: #FFFFFF;
