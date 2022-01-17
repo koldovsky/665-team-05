@@ -18,3 +18,14 @@
     font-weight: 400;
     font-size: 19px;
 }
+
+/* Sofiia block start */
+a{
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    text-decoration: none;
+}
+/* Sofiia block end */
