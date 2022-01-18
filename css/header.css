@@ -3,6 +3,24 @@
     color:var(--dash-color);
 }
 /* Roman Grycyshyn Block Start */
+.header__entry-block {
+    background-image: url(../img/background-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% center;
+    width: 100%;
+    height: 700px;
+}
+.header__info {
+    background-color: white;
+    padding: 37px 37px 37px 37px;
+    margin: 0px 0px 0px 0px;
+    block-size: 300px;
+    margin-right: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
 .header__introduction {
     font-family:var(--font-nunito-family);
     font-size: 12px;
@@ -22,6 +40,13 @@
     font-size: 19px;
 }
 
+.header__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
 .header__about-us-link-button-black {
     color: var(--font-color-sample-1);
     font-weight: 600;
@@ -29,6 +54,18 @@
     font-size: 17px;
     font-family: var(--font-nunito-family);
     border-style: solid;
+    margin-left: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header__shop-now-link-button-white {
+    border-style: solid;
+    border-color: var(--font-color-sample-1);  
+    background-color: var(--font-color-sample-1);
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header__about-us-link-button-black:hover {
@@ -37,19 +74,8 @@
     border-color: var(--font-color-sample-1);
 }
 
-.header__shop-now-link-button-white {
-    border-style: solid;
-    border-color: var(--font-color-sample-1);  
-    background-color: var(--font-color-sample-1);
-    margin: 1px;
-}
 
-.header__info {
-    background-color: white;
-    margin-right: 700px;
-    padding-bottom: 15px;
-    margin-left: 15px;
-}
+
 /* Roman Grycyshyn Block Start */
 /* Sofiia block start */
 a{
