@@ -103,4 +103,8 @@ a{
     font-family: var(--font-nunito-family);
     text-decoration: none;
 }
+
+.header__nav{
+    display:none;
+}
 /* Sofiia block end */
