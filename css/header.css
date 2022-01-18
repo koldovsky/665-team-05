@@ -1,59 +1,75 @@
 
+/* Roman Grycyshyn Block Start 
+Mobile Version */ 
 .header__slogan__dash{
     color:var(--dash-color);
 }
-/* Roman Grycyshyn Block Start */
-
 
 .header__top-row-logo {
-    box-sizing: 95px auto;
-    margin-left: 120px;
-    padding-top: 35px;
+   width: 96px;
+   height: auto;
+   padding-top: 29px;
+   margin-left: 24px;
 }
 
 
+.header__info {
+    display: block;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    margin-right: 15px;
+    margin-top: 130px;
+    margin-left: 15px;
+}
 
 .header__entry-block {
     background-image: url(../img/background-logo.webp);
-    background-position: -255px center;
+    background-position: -965px center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.header__info {
-    background-color: white;
-    padding: 45px 30px 45px 30px;
-    block-size: 300px;
-    margin-right: 790px;
-    margin-left: 120px;
-    margin-top: 180px;
-}
 
-.header__introduction {
+h1 {
     font-family:var(--font-nunito-family);
     font-size: 12px;
     color: var(--font-color-sample-2);
     font-weight: 800;
+    box-sizing: border-box;
+    padding: 8px;
 }
 
 .header__slogan {
     color: var(--font-color-sample-1);
     font-size: 28px;
     font-family:var(--font-rufina-family);
+    padding: 8px;
 }
 
 .header__our-description {
     color: var(--main-color);
     font-weight: 400;
     font-size: 19px;
+    padding: 8px;
 }
 
 .header__buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.header__shop-now-link-button-white {
+    border-style: solid;
+    border-color: var(--font-color-sample-1);  
+    background-color: var(--font-color-sample-1);
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header__about-us-link-button-black {
@@ -63,16 +79,9 @@
     font-size: 17px;
     font-family: var(--font-nunito-family);
     border-style: solid;
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 0px;
     padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.header__shop-now-link-button-white {
-    border-style: solid;
-    border-color: var(--font-color-sample-1);  
-    background-color: var(--font-color-sample-1);
-    padding: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -83,10 +92,9 @@
     border-color: var(--font-color-sample-1);
 }
 
+/* Roman Grycyshyn Block End
+Mobile Version */
 
-
-/* Roman Grycyshyn Block Start */
-/* Sofiia block start */
 a{
     color: #FFFFFF;
     font-weight: 600;
