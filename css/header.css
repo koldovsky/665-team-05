@@ -124,7 +124,7 @@ Mobile Version */
         font-family: var(--font-nunito-family);
         text-decoration: none;
     }
-    a:hover {
+    .header__nav a:hover {
         color: #383838;
         cursor: pointer;
         text-decoration: underline;
