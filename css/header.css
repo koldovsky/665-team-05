@@ -116,7 +116,7 @@ Mobile Version */
         display: flex;
         justify-content: space-between;
     }
-    a{
+    .header__nav a{
         color: #FFFFFF;
         font-weight: 600;
         line-height: normal;
