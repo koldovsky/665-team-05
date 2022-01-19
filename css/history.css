@@ -16,6 +16,15 @@
 .history span{
     color: var(--dash-color);
 }
+.history hr{
+    background-color: var(--dash-color);
+    width: 25px;
+    height: 2px;
+    border: none;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .history__header-text{
     margin-top: 20px;
     color: rgb(89, 89, 89);
@@ -54,7 +63,7 @@ text-align: center;
     color: rgb(116, 116, 116);
     line-height: 25px;
 }
-@media (min-width: 770px){
+@media (min-width: 450px){
     .history__main{
         display: grid;
         gap: 10px;
@@ -66,8 +75,11 @@ text-align: center;
     .history h3{
         font-size: 48px;
     }
+    .history hr{
+        width: 35px;
+    }
 }
-@media (min-width: 995px){
+@media (min-width: 680px){
     .history__main{
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: -30px;
@@ -85,5 +97,8 @@ text-align: center;
     }
     .beginning, .featured, .first-offline-store{
         padding: 45px 40px;
+    }
+    .history hr{
+        width: 46px;
     }
 }
