@@ -30,3 +30,10 @@
     color: white;
     border-color: var(--font-color-sample-1);
 }
+.why_choose_us__text__list{
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    line-height: 25px;
+  } 
