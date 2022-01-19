@@ -1,0 +1,120 @@
+
+.accessories__description {
+    width: 300px;
+    padding-left: 3px;
+    margin-bottom: 30px;
+  }
+
+.accessories__description p {
+    padding-left: 20px;
+  }
+
+.accessories__about-prod, .accessories__about-things {
+    margin-bottom: 15px;
+  }
+
+.accessories__text {
+    font-family: var(--font-nunito-family);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 18px;
+  }
+
+.accessories__title {
+    font-family:var(--font-rufina-family);
+    font-style: normal;
+    font-weight:400;
+    font-size:25px;
+    color:var(--font-color-sample-1);
+    padding-left: 15px;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+.accessories__title::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #c2a18a;
+    position: absolute;
+    top: 50%;
+  }
+
+.accessories__about {
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    line-height: 25px; 
+    margin-bottom: 30px;
+  }
+
+.accessories__text-about {
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    line-height: 25px;
+  } 
+
+.accessories__bags {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 400;
+   margin-bottom: 10px;
+  }
+
+.accessories__bags-text, .accessories__things, .accessories__stuff {
+    font-size: 20px;
+    font-family: var(--font-nunito-family);
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    margin: 2px 15px 5px;
+  }
+
+.accessories__bags-item, .accessories__things-item, .accessories__stuff-item {
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    line-height: 25px;
+    margin-left: 15px;
+  }
+     
+.accessories__hats {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 400;
+    width: 300px;
+    margin-bottom: 10px;
+  } 
+
+.accessories__gloves {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 400;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+
+.accessories__bags-logo, .accessories__hats-logo, .accessories__gloves-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+  } 
+  
+.accessories__icon {
+    width:100%;
+    display: none;
+  }
+  
