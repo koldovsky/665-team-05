@@ -1,11 +1,13 @@
 
 .why_choose_us {
     background-image: url(../img/why_choose_us.png);
-    background-repeat: no-repeat;
+    background-position: -965px center;
     background-size: cover;
+    height: 100vh;
     width: 100%;
-
-}.why_choose_us__text{
+  
+}
+.why_choose_us__text{
     font-family:var(--font-rufina-family);
     font-size:25px;
     font-style: italic;
