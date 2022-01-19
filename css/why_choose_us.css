@@ -5,14 +5,7 @@
     width: 100%;
   
 }
-.why_choose_us__text{
-    font-family:var(--font-rufina-family);
-    font-size:25px;
-    font-style: italic;
-    color:var(--main-color);
-    display: block;
-    width: 25%;
-}
+
 .why_choose_us__text__slogan__dash{
     color:var(--dash-color)
 }
