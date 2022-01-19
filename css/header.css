@@ -120,7 +120,7 @@ Mobile Version */
         display: flex;
         justify-content: space-between;
     }
-    a{
+    .header__nav a{
         color: #FFFFFF;
         font-weight: 600;
         line-height: normal;
@@ -128,7 +128,7 @@ Mobile Version */
         
         text-decoration: none;
     }
-    a:hover {
+    .header__nav a:hover {
         color: #383838;
         cursor: pointer;
         text-decoration: underline;
