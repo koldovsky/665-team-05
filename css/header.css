@@ -91,20 +91,43 @@ h1 {
     color: white;
     border-color: var(--font-color-sample-1);
 }
+.header__nav{
+    display:none;}
 
 /* Roman Grycyshyn Block End
 Mobile Version */
 
-a{
-    color: #FFFFFF;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 17px;
-    font-family: var(--font-nunito-family);
-    text-decoration: none;
-}
-
-.header__nav{
-    display:none;
+/*Sofiia block start*/
+@media (min-width: 990px) {
+    .header__top-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 40px;
+    }
+    .header__top-row-logo{
+        width: 95%;
+    }
+    .header__top-row-logo:hover{
+        cursor: pointer;
+    }
+    .header__nav {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color: #FFFFFF;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 17px;
+        font-family: var(--font-nunito-family);
+        text-decoration: none;
+    }
+    a:hover {
+        color: #383838;
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
 /* Sofiia block end */
