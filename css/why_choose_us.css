@@ -1,4 +1,12 @@
-.why_choose_us__text{
+
+.why_choose_us__bacground {
+    background-image: url(../img/background-logo.webp);
+    background-position: -965px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}.why_choose_us__text{
     font-family:var(--font-rufina-family);
     font-size:25px;
     font-style: italic;
@@ -8,9 +16,6 @@
 }
 .why_choose_us__text__slogan__dash{
     color:var(--dash-color)
-}
-why_choose_us__text__slogan__text{
-    font-family:var(--font-rufina-family)
 }
 .why_choose_us__lean-more-link {
     color: var(--font-color-sample-1);
@@ -25,3 +30,4 @@ why_choose_us__text__slogan__text{
     background-color: var(--font-color-sample-1);
     color: white;
     border-color: var(--font-color-sample-1);
+}
