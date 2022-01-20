@@ -130,9 +130,10 @@
       margin-left: 40px;
       margin-right: 60px;
     } 
-    @media (min-width: 800px) {
-      .accessories__first {
-      margin-left: 120px;
-      }
+  
+}
+@media (min-width: 800px) {
+  .accessories__first {
+  margin-left: 120px;
   }
 }
