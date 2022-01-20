@@ -1,9 +1,9 @@
 
-.accessories__description {
-    width: 300px;
-    padding-left: 3px;
-    margin-bottom: 30px;
-  }
+.accessories__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .accessories__description p {
     padding-left: 20px;
@@ -66,7 +66,6 @@
 .accessories__bags {
     display: flex;
     flex-direction: row;
-    width: 300px;
     font-size: 17px;
     font-weight: 400;
    margin-bottom: 10px;
@@ -94,7 +93,6 @@
     flex-direction: row;
     font-size: 17px;
     font-weight: 400;
-    width: 300px;
     margin-bottom: 10px;
   } 
 
@@ -103,7 +101,6 @@
     flex-direction: row;
     font-size: 17px;
     font-weight: 400;
-    width: 300px;
     margin-bottom: 25px;
   }
 
@@ -118,3 +115,24 @@
     display: none;
   }
   
+  @media (min-width: 600px) {
+    .accessories {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .accessories__icon {
+      display: block;
+    }
+  
+    .accessories__girl {
+      height: auto;
+      width: 650px;
+      margin-left: 40px;
+      margin-right: 60px;
+    } 
+    @media (min-width: 800px) {
+      .accessories__first {
+      margin-left: 120px;
+      }
+  }
+}
