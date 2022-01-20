@@ -18,12 +18,19 @@
     color:var(--dash-color)
 }
 .why_choose_us__lean-more-link {
-    color: var(--font-color-sample-1);
-    font-weight: 600;
-    line-height: normal;
-    font-size: 17px;
-    font-family: var(--font-nunito-family);
-    border-style: solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        font-family: var(--font-nunito-family);
+        border-style: solid;
+        border-color: var(--font-color-sample-1);  
+        background-color: var(--font-color-sample-1);
+        padding: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        text-decoration: none;
 }
 
 .why_choose_us__lean-more-link:hover {
