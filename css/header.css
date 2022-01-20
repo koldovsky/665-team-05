@@ -218,13 +218,17 @@ Mobile Version */
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 30px 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+        padding-right: 100px;
     }
-    .header__top-row-logo{
+    /*.header__top-row-logo{
         width: 100%;
         margin-left: 0px;
         margin-top: -30px;
     }
+    */
     .header__top-row-logo:hover{
         cursor: pointer;
     }
@@ -239,6 +243,7 @@ Mobile Version */
         line-height: normal;
         font-size: 17px;
         text-decoration: none;
+        font-family: var(--font-nunito-family);
     }
     a:hover {
         color: #383838;
