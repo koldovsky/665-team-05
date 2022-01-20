@@ -10,6 +10,8 @@
     width: 300px;
     padding-left: 3px;
     margin-bottom: 30px;
+    text-align: left;
+    justify-content: flex-start;
   }   
 
 .why_choose_us__text__slogan__dash{
@@ -26,7 +28,7 @@
 
 .why_choose_us__lean-more-link:hover {
     background-color: var(--font-color-sample-1);
-    color: white;
+    color: rgb(10, 10, 10);
     border-color: var(--font-color-sample-1);
 }
 
@@ -38,11 +40,22 @@
     line-height: 25px; 
     margin-bottom: 30px;}
     accessories__bags-item, 
-    .why_choose_us__text__list1 {
-        font-size: 17px;
-        font-family: var(--font-nunito-family);
-        font-weight: 400;
-        color: rgb(116, 116, 116);
-        line-height: 25px;
-        margin-left: 15px;
+
+.why_choose_us__text__list1 {
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+    line-height: 25px;
+    margin-left: 15px;
       }
+
+@media(min-width:320px){
+    
+    .why_choose_us{
+        position: relative;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        word-wrap:break-word;
+    } }
+      
