@@ -22,12 +22,12 @@
     padding-left: 3px;
     margin-bottom: 30px;
     justify-content: flex-start;
-    text-align: right;
+    text-align: left;
     display: block;
     box-sizing: border-box;
     padding: 90px 24px 90px 24px;
-    min-width: 320px;
-  }   
+      }   
+
 .why_choose_us__h3{
    position:relative;
    text-transform: none;
