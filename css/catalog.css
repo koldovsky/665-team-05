@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20px;
 }
 
 .catalog li {
@@ -13,4 +14,22 @@
 .catalog img {
     width:100%;
     height:auto;
+}
+
+.catalog__body {
+    list-style-type: none;
+}
+
+@media (min-width: 600px) {
+    .catalog {
+        max-width: none;
+    }
+    .catalog__body {
+        display: flex;
+    }
+    .catalog img {
+        width:250px;
+        height:450px;
+        object-fit: cover;
+    }
 }
