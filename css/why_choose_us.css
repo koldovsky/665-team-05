@@ -68,13 +68,27 @@ ol > li:before{
 
 
 .why_choose_us__text__paragraph {
-    font-size: 17px;
     font-family: var(--font-nunito-family);
     font-weight: 400;
+    font: inherit;
     color: rgb(116, 116, 116);
-    line-height: 25px;
-    margin-left: 15px;
+    margin-top: 20px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    max-width: 100%;
+    word-wrap:break-word;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    text-align: left;
       }
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;}
 
 .why_choose_us__lean-more-link {
         display: flex;
@@ -96,8 +110,13 @@ ol > li:before{
         color: rgb(10, 10, 10);
         border-color: var(--font-color-sample-1);
 }
-
-
+    @media(max-width:767px){
+        .why_choose_us__text__paragraph{
+        font-size: 17px;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+}
     @media(max-width:768px){
         .why_choose_us__background{
         background-image: url(img/why_choose_us/768.jpg);
