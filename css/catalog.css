@@ -14,3 +14,21 @@
     width:100%;
     height:auto;
 }
+
+.catalog__body {
+    list-style-type: none;
+}
+
+@media (min-width: 600px) {
+    .catalog {
+        max-width: none;
+    }
+    .catalog__body {
+        display: flex;
+    }
+    .catalog img {
+        width:250px;
+        height:450px;
+        object-fit: cover;
+    }
+}
