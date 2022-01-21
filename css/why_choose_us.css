@@ -15,7 +15,7 @@
     }
 
   .why_choose_us__background{
-     background-image: url("//res2.weblium.site/res/60780dc755278800214deaff/608016c03b6bf40021746754_optimized_3840");
+     background-image: url(img/why_choose_us/background);
      background-position:35.95% 53.05%;
      background-repeat: no-repeat;
      background-size: cover;;
@@ -88,25 +88,25 @@ ol > li:before{
 
     @media(max-width:768px){
         .why_choose_us__background{
-        background-image: url("//res2.weblium.site/res/60780dc755278800214deaff/608016c03b6bf40021746754_optimized_1200");
+        background-image: url(img/why_choose_us/768.jpg);
         background-position:100% 50.01%;
         background-repeat: no-repeat;
         background-size: cover;
     }
     }
       
-    @media(min-width:768px max-width:1199px){
+    @media(max-width:1199px){
         .why_choose_us__background{
-        background-image: url("");
+        background-image: url(img/why_choose_us/768-1199.jpg);
         background-position:100% 51.84%;
         background-repeat: no-repeat;
         background-size: cover;
     }
     }
 
-    @media(min-width:1200px max-width 1920px){
+    @media(max-width:1920px){
         .why_choose_us__background{
-        background-image: url("");
+        background-image: url(img/why_choose_us/1200-1920.jpg);
         background-position:35.94% 53.05%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -115,7 +115,7 @@ ol > li:before{
 
     @media(max-width:1921px){
         .why_choose_us__background{
-        background-image: url("");
+        background-image: url(img/why_choose_us/1921.jpg);
         background-position:35.94% 53.05%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -124,7 +124,7 @@ ol > li:before{
 
     @media(max-width:2560px){
         .why_choose_us__background{
-        background-image: url("");
+        background-image: url(img/why_choose_us/2560.jpg);
         background-position:35.94% 53.05%;
         background-repeat: no-repeat;
         background-size: cover;
