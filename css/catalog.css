@@ -1,0 +1,16 @@
+.catalog {
+    max-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog li {
+    align-self: center;
+}
+
+.catalog img {
+    width:100%;
+    height:auto;
+}

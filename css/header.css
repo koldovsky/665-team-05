@@ -245,7 +245,7 @@ Mobile Version */
         text-decoration: none;
         font-family: var(--font-nunito-family);
     }
-    a:hover {
+    .header__top-row a:hover {
         color: #383838;
         cursor: pointer;
         text-decoration: underline;
@@ -297,11 +297,12 @@ Mobile Version */
     }
 
     .header__slogan {
-        font-size: 48px;
+        font-size: 40px;
+        padding-top: 0;
     }
 
     .header__our-description {
-        padding-top: 25px;
+        padding-top: 0;
     }
 }
 
