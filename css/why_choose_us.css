@@ -1,7 +1,8 @@
 
 .why_choose_us {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 90px;
+    min-width: 320px;
     position:relative;
     font-size: 17px;
     font-family:var(--font-nunito-family);
@@ -15,10 +16,10 @@
     }
 
   .why_choose_us__background{
-     background-image: url(img/why_choose_us/background);
+     background-image:url(img/why_choose_us.png);
      background-position:35.95% 53.05%;
      background-repeat: no-repeat;
-     background-size: cover;;
+     background-size: cover;
     }
 
 .why_choose_us__text{
@@ -154,6 +155,10 @@ p{
         line-height: 1.2;
         letter-spacing: 0;
     }
+    .why_choose_us__h5{
+        font-size: 19px;
+        line-height: 1.5;
+        letter-spacing: 0;}
 }
     @media(max-width:768px){
         .why_choose_us__background{
