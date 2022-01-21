@@ -92,7 +92,41 @@ ol > li:before{
         background-position:100% 50.01%;
         background-repeat: no-repeat;
         background-size: cover;
-
     }
     }
       
+    @media(min-width:768px max-width:1199px){
+        .why_choose_us__background{
+        background-image: url("");
+        background-position:100% 51.84%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+
+    @media(min-width:1200px max-width 1920px){
+        .why_choose_us__background{
+        background-image: url("");
+        background-position:35.94% 53.05%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+
+    @media(max-width:1921px){
+        .why_choose_us__background{
+        background-image: url("");
+        background-position:35.94% 53.05%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+
+    @media(max-width:2560px){
+        .why_choose_us__background{
+        background-image: url("");
+        background-position:35.94% 53.05%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
