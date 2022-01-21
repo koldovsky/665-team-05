@@ -32,22 +32,6 @@
 .why_choose_us__text__slogan__dash{
     color:var(--dash-color)
 }
-.why_choose_us__lean-more-link {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top: 20px;
-        font-family: var(--font-nunito-family);
-        border-style: solid;
-        border-color: var(--font-color-sample-1);  
-        background-color: var(--font-color-sample-1);
-        padding: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        color: white;
-        text-decoration: none;
-
-}
 
 ol{
     list-style: none;
@@ -58,9 +42,27 @@ ol > li{
     margin: 10px;
 }
 ol > li:before{
-    content: '';
-    position: absolute; top: 0; left: 0;
+    content:'✔';
+    position: absolute; 
+    top: 0; 
+    left: 0;
     color: var(--dash-color);
+}
+
+.why_choose_us__lean-more-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    font-family: var(--font-nunito-family);
+    border-style: solid;
+    border-color: var(--font-color-sample-1);  
+    background-color: var(--font-color-sample-1);
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
 }
 .why_choose_us__lean-more-link:hover {
     background-color: var(--font-color-sample-1);
