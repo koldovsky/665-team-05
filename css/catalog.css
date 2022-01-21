@@ -1,0 +1,9 @@
+.catalog {
+    max-width: 320px;
+    height: auto;
+}
+
+.catalog img {
+    width:100%;
+    height:auto;
+}
