@@ -36,7 +36,6 @@
    max-width: 100%;
    word-wrap: break-word;
    vertical-align: baseline;
-   text-align: left;
    box-sizing: border-box;
    border: 0;
 }
@@ -48,13 +47,28 @@ h3{
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
+.why_choose_us__h5{
+    margin-top: 25px;
+    position:relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+h5{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;}
+
 .why_choose_us__text__slogan__dash{
     color:var(--dash-color)
 }
 
 .why_choose_us__text__list{
    align-items: flex-start;
-   text-align: left;
    font: inherit;
    vertical-align: baseline;
         }
@@ -100,7 +114,6 @@ ol > li:before{
     word-wrap:break-word;
     vertical-align: baseline;
     box-sizing: border-box;
-    text-align: left;
       }
 p{
     display:block;
