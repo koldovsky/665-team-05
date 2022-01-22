@@ -37,12 +37,7 @@
    word-wrap: break-word;
    box-sizing: border-box;
    border: 0;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
+   
 .why_choose_us__h5{
     margin-top: 25px;
     position:relative;
@@ -50,10 +45,7 @@
     word-wrap: break-word;
     box-sizing: border-box;
     display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;}
+}
 
 .why_choose_us__text__slogan__dash{
     color:var(--dash-color)
@@ -105,11 +97,7 @@ ol > li:before{
     max-width: 100%;
     word-wrap:break-word;
     box-sizing: border-box;
-    display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;}
+   Ї
 
 .why_choose_us__lean-more-link {
         display: flex;
