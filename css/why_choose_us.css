@@ -4,11 +4,7 @@
     position: 42.19% 0% ;
     object-fit: cover;
 }
-.why_choose_us__first {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
 .why_choose_us__container {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -117,17 +113,6 @@
     display: none;
   }
 
-  @media (min-width: 600px) {
-    .why_choose_us__icon {
-      display: block;
-    }
-    .why_choose_us__girl {
-      height: auto;
-      width: 650px;
-      margin-left: 40px;
-      margin-right: 60px;
-    } 
-  }
 @media (min-width:768px) {
     .why_choose_us__subtitle__name {
         font-size: 41px;
