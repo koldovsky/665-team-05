@@ -1,3 +1,8 @@
+.accessories {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
 
 .accessories__first {
   display: flex;
@@ -21,38 +26,26 @@
     margin-left: 18px;
   }
 
-.accessories__title {
-    font-family:var(--font-rufina-family);
-    font-style: normal;
-    font-weight:400;
-    font-size:25px;
-    color:var(--font-color-sample-1);
-    padding-left: 15px;
-    text-indent: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  .accessories__title {
+  font-family:var(--font-rufina-family);
+  font-style: normal;
+  font-weight:400;
+  font-size:48px;
+  color:var(--font-color-sample-1);
+  margin-bottom: 25px;
+  padding-left: 20px;
   }
 
-.accessories__title::before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 2px;
-    background: #c2a18a;
-    position: absolute;
-    top: 50%;
+  .accessories__title span {
+    color: var(--dash-color);
   }
-
 .accessories__about {
     font-size: 17px;
     font-family: var(--font-nunito-family);
     font-weight: 400;
     color: rgb(116, 116, 116);
     line-height: 25px; 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
 .accessories__text-about {
@@ -61,6 +54,7 @@
     font-weight: 400;
     color: rgb(116, 116, 116);
     line-height: 25px;
+    margin-bottom: 40px;
   } 
 
 .accessories__bags {
@@ -112,9 +106,16 @@
   
 .accessories__icon {
     width:100%;
+    height: 100%;
     display: none;
   }
   
+  .accessories__girl {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   @media (min-width: 600px) {
     .accessories {
       display: grid;
@@ -125,8 +126,6 @@
     }
   
     .accessories__girl {
-      height: auto;
-      width: 650px;
       margin-left: 40px;
       margin-right: 60px;
     } 

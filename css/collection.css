@@ -1,0 +1,126 @@
+/* Mobile Version starts here
+Performed by Roman Hrytsyshyn */
+
+.collection {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.collection__block {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.collection__header {
+    text-align: center;
+}
+
+.collection__slogan {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.collection__slogan-dash {
+    color: var(--dash-color);
+}
+
+.collection__description {
+    color: var(--main-color);
+    font-family: var(--font-nunito-family);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.collection__card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 45px;
+    height: auto;
+    width: 80%;
+}
+
+.collection__card-text {
+    color: var(--font-color-sample-2);
+    font-size: 19px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.card__price {
+    color: var(--dash-color);
+    font-family: var(--font-nunito-family);
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.collection-card-button__add-to-cart {
+    background-color: var(--font-color-sample-3);
+    border-width: 0;
+    height: 50px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    width: 170px;
+    margin-top: 25px;
+}
+
+.button__add-to-cart-text {
+    color: white;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.plus {
+    color: white;
+    font-family: Nunito, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+@media (min-width: 400px) {
+    .new-line {
+        display: none;
+    }
+}
+/* Mobile Version ends here
+Performed by Roman Hrytsyshyn */
+
+/* Desktop Version starts here
+Performed by Roman Hrytsyshyn */
+
+@media (min-width: 750px) {
+    .collection__cards {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .collection__slogan {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 990px) {
+    .collection__cards {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1100px) {
+    .collection__cards {
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }  
+}
+
+/* Desktop Version ends here
+Performed by Roman Hrytsyshyn */
