@@ -53,17 +53,19 @@ Performed by Roman Hrytsyshyn */
     font-family: var(--font-nunito-family);
     font-size: 19px;
     font-weight: 800;
+    margin-top: 15px;
 }
 
 .collection-card-button__add-to-cart {
     background-color: var(--font-color-sample-3);
     border-width: 0;
+    height: 50px;
     padding-bottom: 16px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 16px;
     width: 170px;
-    height: 50px;
+    margin-top: 25px;
 }
 
 .button__add-to-cart-text {
