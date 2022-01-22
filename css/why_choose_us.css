@@ -53,21 +53,23 @@
     margin-top: 25px;
     font-size: 17px;
     font-family: var(--font-nunito-family);
-    line-height: 25.5px;}
+    line-height: 25.5px;
+}
 
+.why_choose_us__dash {
+    color: var(--dash-color);
+}
 .why_choose_us__text__list{
     list-style: none;
 }
-.why_choose_us__text__list>.why_choose_us__text__list__item{
+.why_choose_us__text__list > .why_choose_us__text__list__item{
     padding-left: 20px;
     position: relative;
     margin: 10px;
 }
-.why_choose_us__text__list>.why_choose_us__text__list__item : before {
+.why_choose_us__text__list > .why_choose_us__text__list__item:before{
     content: '✔';
-    position: absolute; 
-    top: 0; 
-    left: 0;
+    position: absolute; top: 0; left: 0;
     color: var(--dash-color);
 }
 .why_choose_us__button {
