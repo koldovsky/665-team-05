@@ -1,182 +1,108 @@
+.why_choose_us__background {
+    background-image: url(../img/why_choose_us/mobile-background.jpg);
+    position: relative;
+    position: 42.19% 0% ;
+    object-fit: cover;
+}
 
-.why_choose_us {
-    padding-top: 60px;
+.why_choose_us__container {
+    padding-top: 90px;
     padding-bottom: 90px;
-    min-width: 320px;
-    position:relative;
-    font-size: 17px;
-    font-family:var(--font-nunito-family);
-    font-weight: 400;
-    word-wrap:break-word;
-    flex-shrink: 0;
-    flex-basis:100%;
-    border:0;
-    font: inherit;
-     background-image: url(../img/why_choose_us/background.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-    }
+}
 
-.why_choose_us__text{
-    width: 300px;
-    padding-left: 3px;
-    margin-bottom: 30px;
-    justify-content: flex-start;
-    text-align: left;
-    display: block;
-    box-sizing: border-box;
-    padding: 90px 24px 90px 24px;
-      }   
+.why_choose_us__container__inner {
+    padding-right: 24px;
+    padding-left: 24px;
+}
 
-.why_choose_us__h3{
-   position:relative;
-   text-transform: none;
-   text-decoration: none;
-   margin-top: 20px;
-   max-width: 100%;
-   word-wrap: break-word;
-   box-sizing: border-box;
-   border: 0;
-   
-.why_choose_us__h5{
+.why_choose_us__container__inner__grid {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.why_choose_us__container__inner__grid__top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.why_choose_us__subtitle__name {
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+.why_choose_us__text-box__text-top {
     margin-top: 25px;
-    position:relative;
-    max-width: 100%;
-    word-wrap: break-word;
-    box-sizing: border-box;
-    display:block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-size: 19px;
+    font-family: var(--font-nunito-family);
+    line-height: 28.5px;
 }
 
-.why_choose_us__text__slogan__dash{
-    color:var(--dash-color)
-}
+.why_choose_us__text-box__text-bottom {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: var(--font-nunito-family);
+    line-height: 25.5px;}
 
 .why_choose_us__text__list{
-   align-items: flex-start;
-   font: inherit;
-   vertical-align: baseline;
-        }
-    
-ol{
     list-style: none;
 }
-ol > li{
+.why_choose_us__text__list>.why_choose_us__text__list__item{
     padding-left: 20px;
     position: relative;
     margin: 10px;
 }
-ol > li:before{
+.why_choose_us__text__list>.why_choose_us__text__list__item : before {
     content: '✔';
-    position: absolute; top: 0; left: 0;
-    color: var(--dash-color);}
-
-.why_choose_us__text__list1{
-    font-size: 17px;
-    font-family: var(--font-nunito-family);
-    font-weight: 400;
-    color: rgb(116, 116, 116);
-    line-height: 25px; 
-    margin-bottom: 30px;
-    align-items: flex-start;
-    text-align: left;
-    font:inherit;
-    vertical-align: baseline;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    color: var(--dash-color);
+}
+.why_choose_us__button {
+    margin-top: 35px;
+  
 }
 
+.why_choose_us__button__container{
+    margin:-10px;
+}
+.why_choose_us__button__inner {
+    width: 100%;
+}
 
-.why_choose_us__text__paragraph {
-    font-family: var(--font-nunito-family);
-    font-weight: 400;
-    font: inherit;
-    color: rgb(116, 116, 116);
-    margin-top: 20px;
-    font-style: normal;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
-    max-width: 100%;
-    word-wrap:break-word;
+.why_choose_us__button__button {
     box-sizing: border-box;
-   Ї
-
-.why_choose_us__lean-more-link {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top: 20px;
-        font-family: var(--font-nunito-family);
-        border-style: solid;
-        border-color: var(--font-color-sample-1);  
-        background-color: var(--font-color-sample-1);
-        padding: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        color: white;
-        text-decoration: none;
-    }
-.why_choose_us__lean-more-link:hover {
-        background-color: var(--font-color-sample-1);
-        color: rgb(10, 10, 10);
-        border-color: var(--font-color-sample-1);
+    display: flex;
+    align-items: center;    
+    margin: 10px;    
+    padding: 18px 26px 18px 26px;
+    border-style: solid;
+    border-color: var(--font-color-sample-1);  
+    cursor: pointer;  
+    font-family: var(--font-nunito-family);
+    font-size: 16.5px;
+    letter-spacing: normal;
+    line-height: 16.5px;
+    font-weight: 700;
+    font-stretch: 100%;
+    color: var(--font-color-sample-1);
 }
-    @media(max-width:767px){
-        .why_choose_us__text__paragraph{
-        font-size: 17px;
-        line-height: 1.5;
-        letter-spacing: 0;
-    }
-
-        .why_choose_us__h3{
-        font-size: 28px;
-        line-height: 1.2;
-        letter-spacing: 0;
-    }
-    .why_choose_us__h5{
-        font-size: 19px;
-        line-height: 1.5;
-        letter-spacing: 0;}
+.why_choose_us__button__button:hover {
+    background-color: var(--font-color-sample-1);
+    color: white;
+    border-color: var(--font-color-sample-1);
+    transition: 0.3s;
+    
 }
-    @media(max-width:768px){
-        .why_choose_us{
-        background-image: url(../img/why_choose_us/768.jpg);
-        background-position:100% 50.01%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
-      
-    @media(max-width:1199px){
-        .why_choose_us{
-        background-image: url(../img/why_choose_us/768-1199.jpg);
-        background-position:100% 51.84%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
-
-    @media(max-width:1920px){
-        .why_choose_us{
-        background-image: url(../img/why_choose_us/1200-1920.jpg);
-        background-position:35.94% 53.05%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
-
-    @media(max-width:1921px){
-        .why_choose_us{
-        background-image: url(../img/why_choose_us/1921.jpg);
-        background-position:35.94% 53.05%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
-
-    @media(max-width:2560px){
-        .why_choose_us{
-        background-image: url(../img/why_choose_us/2560.jpg);
-        background-position:35.94% 53.05%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
