@@ -45,6 +45,7 @@ img {
   padding-left: 27px;
   padding-right: 27px;
 }
+
 .main__about-us__left__quotation-marks {
   margin-top: 20px;
   height: 50px;
@@ -138,6 +139,7 @@ img {
 .main__about-us__right__img-box {
   margin-top: 20px;
 }
+
 @media (min-width: 768px) {
   .main__about-us {
     padding-top: 110px;
@@ -147,33 +149,41 @@ img {
   .main__about-us__inner-container__grid {
     flex-wrap: nowrap;
   }
+
   .main__about-us__inner-container {
     padding: 0 32px;
   }
+
   .main__about-us__left {
     flex-basis: 58.66667%;
     max-width: 58.66667%;
   }
+
   .main__about-us__text-box {
     font-size: 22px;
     line-height: 1.6;
   }
+
   .main__about-us__footer {
     margin-top: 15px;
   }
+
   .main__about-us__right {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
     margin-top: 0;
   }
+
   .main__about-us__right__article-name-box {
     margin-top: 10px;
   }
+
   .main__about-us__right__article-name-box__name {
     font-size: 41px;
     line-height: 49.2px;
   }
 }
+
 @media (min-width: 992px) {
   .main__about-us {
     padding-top: 130px;
@@ -183,18 +193,22 @@ img {
   .main__about-us__inner-container__grid {
     flex-wrap: nowrap;
   }
+
   .main__about-us__inner-container {
     padding: 0 40px;
   }
+
   .main__about-us__text-box__text {
     line-height: 40px;
     font-size: 25px;
   }
+
   .main__about-us__right__article-name-box__name {
     font-size: 48px;
     line-height: 57.6px;
   }
 }
+
 @media (min-width: 1200px) {
   .main__about-us {
     margin: auto;
