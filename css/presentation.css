@@ -1,7 +1,7 @@
-.history {
-    display: flex;
-    flex-direction: column;
-    padding: 90px 0;
+.presentation {
+    margin: 90px 0;
+    background-image: url(../img/presentation_block/mobile-background.jpg);
+    object-fit: cover;
 }
 
 .presentation__text {
