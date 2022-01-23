@@ -5,8 +5,7 @@
 }
 
 .presentation__text {
-    margin: -50px -15px 0 -15px;
-    padding: 110px 40px;
+    padding: 110px 20px;
 }
 
 .presentation__text-span {
@@ -82,11 +81,7 @@
         font-size: 48px;
         font-weight: 400;
     }
-}
-
-@media (min-width: 1500px) {
-    .presentation {
-        max-width: 1500px;
-        margin: auto;
+    .presentation__text-paragraph-second {
+        margin-top: 50px;
     }
 }
