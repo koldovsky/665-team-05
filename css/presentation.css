@@ -17,7 +17,6 @@
     margin-top: 20px;
     color: rgb(33, 33, 33);
     font-size: 28px;
-    text-align: center;
 }
 
 .presentation h2 {
@@ -57,4 +56,37 @@
     font-size: 16.5px;
     font-family: var(--font-nunito-family);
     font-weight: 700;
+}
+
+@media (min-width:770px) {
+    .presentation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .presentation__photo img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .presentation__text {
+        padding: 155px 30px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1075px) {
+    .presentation__text {
+        padding: 200px 60px;
+    }
+    .presentation h3 {
+        font-size: 48px;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 1500px) {
+    .presentation {
+        max-width: 1500px;
+        margin: auto;
+    }
 }
