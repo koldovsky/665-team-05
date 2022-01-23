@@ -245,15 +245,8 @@ Mobile Version */
         width: 100%;
         color: black;
     }
-<<<<<<< HEAD
     .header__nav a:hover {
         color: black;
-=======
-    .header__top-row a:hover {
-        color: #383838;
-        cursor: pointer;
-        text-decoration: underline;
->>>>>>> dcf2d1f906a66affe6a6fb81be9498b8ef00edf3
     }
     /* Roman Hrytsyshyn Desktop Version Part 2 */
     .header__info {
