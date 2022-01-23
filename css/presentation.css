@@ -1,9 +1,10 @@
 .presentation {
     margin: 90px 0;
-    background-image: url(../img/presentation_block/mobile-background.jpg);
     object-fit: cover;
 }
-
+.presentation__background{
+    background-image: url(../img/presentation_block/mobile-background.jpg);    
+}
 .presentation__text {
     padding: 110px 20px;
 }
@@ -58,7 +59,7 @@
 }
 
 @media (min-width:770px) {
-    .presentation {
+    .presentaion__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -83,5 +84,11 @@
     }
     .presentation__text-paragraph-second {
         margin-top: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .presentaion__container{
+        max-width: 1200px;
+        margin: auto;
     }
 }
