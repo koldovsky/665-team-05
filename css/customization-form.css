@@ -1,3 +1,124 @@
 .customization__modal-form{
     display: none;
+    z-index: 1003;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    background:rgba(0,0,0,.7);  
+    overflow-y: scroll;
+}
+.customization__modal-form__container{
+    margin: 10% auto calc(10% + 80px);
+    background: white;
+}
+.customization__modal-form__container__inner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inner__form-section{
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 24px;
+}
+.inner__form-section__container{
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.inner__form-section__container__grid{
+    display: flex;
+    flex-basis: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grid__inner__box__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 35px; 
+    padding-bottom: 35px; 
+    padding-left: 35px; 
+    padding-right: 35px; 
+}
+.grid__inner__box__form__title{
+    text-align: center;
+}
+.grid__inner__box__form__subtitle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+.grid__inner__box__form{
+    margin-top: 25px;
+}
+.customization__modal-form__form-box{
+color: #747474;
+position: relative;
+}
+
+.customization__modal-form__form-box__name{
+    text-align: left;
+    margin-bottom: 24px;
+}
+.customization__modal-form__form-box__name__input{
+    border-color: #383838;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    padding:16px 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.2;
+    text-align: start;
+}
+.customization__modal-form__form-box__phone__input{
+    border-color: #383838;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    padding:16px 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.2;
+    text-align: start;
+}
+.customization__modal-form__form-box__email__input{
+    border-color: #383838;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    padding:16px 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.2;
+    text-align: start;
+}
+.customization__modal-form__form-box__comment__input{
+    border-color: #383838;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    padding:16px 25px;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 1.2;
+    text-align: start;
+    min-height: 150px;
+}
+.customization__modal-form__form-box__button{
+    width: 100%;
+    margin-top: 56px;
 }
