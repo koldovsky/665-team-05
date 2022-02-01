@@ -1,5 +1,5 @@
 .customization__form{   
-    visibility: hidden;    
+    display: none;   
     z-index: 10;
     background-color: rgba(0,0,0,.7);
     position: fixed;
@@ -8,13 +8,14 @@
     width: 100%; 
     height: 100%;
     overflow-y: auto;
-    overflow-x: hidden;
-    opacity: 0;
-    }
-.customization__form.open{
-    opacity: 1;
-    visibility: visible;
+    overflow-x: hidden;  
 }
+
+.form__container__close{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .customizatiom__form__container{
     background-color: white;
