@@ -71,5 +71,7 @@
 
     document.querySelector(".cards__carousel-forward").addEventListener("click", showNextSlide);
     document.querySelector(".cards__carousel-back").addEventListener("click", showPrevSlide);
+
+    window.addEventListener('resize', showCurrentSlide);
     
 })();
