@@ -1,3 +1,4 @@
+(function() {
 const container = document.getElementById('container');
 const text = document.getElementById('text');
 
@@ -22,3 +23,4 @@ function breathAnimation() {
 }
 
 setInterval(breathAnimation, totalTime);
+})()
