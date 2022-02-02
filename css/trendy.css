@@ -1,7 +1,10 @@
 .trendy__background {
-    background-image: url(../img/trendy/mobile-background.jpg);
+    background-image: url(../img/trendy/trendy.png);
     position: relative;
     position: 35.94% 53.05% ;
+    transition: opacity;
+    height: 535px;
+    
 }
 
 .trendy__container {
