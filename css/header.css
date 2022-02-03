@@ -1,6 +1,25 @@
 /* Roman Grycyshyn Block Start 
 Mobile Version */
 
+.header__top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__burger {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.header__burger-logo {
+    color: var(--font-color-sample-3);
+    display: inline;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 .header__slogan__dash {
     color: var(--dash-color);
 }
@@ -248,6 +267,13 @@ Mobile Version */
     .header__nav a:hover {
         color: black;
     }
+    /* Roman Hrytsyshyn Burger Menu */
+
+    .header__burger {
+        display: none;
+    }
+
+
     /* Roman Hrytsyshyn Desktop Version Part 2 */
     .header__info {
         margin-top: 145px;

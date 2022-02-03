@@ -31,9 +31,9 @@ function symbolCounter(){
         countField.style.display = "block";
         nameInputContainer.style.margin = "0";
     return countField.innerText = "You entered " + nameInputValue.length + " symbols";
-    }else{
-            nameInputContainer.style.margin = "0 0 24px 0"
-    return countField.style.display = "none"
+    } else {
+        nameInputContainer.style.margin = "0 0 24px 0"
+        return countField.style.display = "none"
 }
     
 }

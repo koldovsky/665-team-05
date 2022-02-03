@@ -33,7 +33,7 @@
             `<article class="collection__card">
                 <img src="img/collection-block/card__lace-top.png" alt="Lace Top">
                 <h4 class="collection__card-text">Lace Top</h4>
-                <p class="card__price">20.00 USD</p>
+                <p class="card__price">40.00 USD</p>
                 <div class="collection__card-button">
                     <button class="collection-card-button__add-to-cart">
                         <span class="button__add-to-cart-text">Add to Cart</span><span class="plus"> +</span>
@@ -73,5 +73,5 @@
     document.querySelector(".cards__carousel-back").addEventListener("click", showPrevSlide);
 
     window.addEventListener('resize', showCurrentSlide);
-    
+
 })();
