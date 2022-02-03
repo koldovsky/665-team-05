@@ -35,9 +35,9 @@
         for (const item of catalog) {
             catalogContainer.innerHTML+= `
             <li class="catalog__doby__shirts">
-            <img src="${catalog.img}" alt="${catalog.alt}"/>
-            <h4>${catalog.title}</h4>
-            <p>${catalog.descriptopn}</p>
+            <img src="${item.img}" alt="${item.alt}"/>
+            <h4>${item.title}</h4>
+            <p>${item.descriptopn}</p>
             </li>
             `; 
         }
