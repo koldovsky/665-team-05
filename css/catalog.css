@@ -1,4 +1,39 @@
+.catalog__header {
+  text-align: center;
+}
+
+.catalog h2 {
+  font-weight: 700;
+}
+
+.catalog h3 {
+  font-size: 28px;
+}
+
+.catalog__header p {
+  font-size: 19px;
+  font-family: var(--font-nunito-family);
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.catalog__body h4 {
+  font-size: 22px;
+  color: rgb(33, 33, 33);
+}
+
+.catalog__body p {
+  font-size: 17px;
+  font-family: var(--font-nunito-family);
+  font-weight: 400;
+  color: var(--main-color);
+}
+
 .catalog {
+  margin: 15px;
+}
+
+/* .catalog {
     max-width: 420px;
     margin: auto;
 }
@@ -48,4 +83,4 @@
     .catalog__body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-}
+} */
