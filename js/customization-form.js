@@ -1,43 +1,44 @@
-(function(){
-const modalForm = document.querySelector('.customization__form');
-const modalOpen = document.querySelector('.customization__button__button');
-const modalClose = document.querySelector('.close__icon');
-const body = document.querySelector('body');
-const requestBtn = document.querySelector('.form__button');
-const countField = document.querySelector('.count__test');
-const nameInput = document.querySelector('.input__name');    
-const nameInputContainer = document.querySelector('.form__input__name');    
+(function () {
+    const modalForm = document.querySelector('.customization__form');
+    const modalOpen = document.querySelector('.customization__button__button');
+    const modalClose = document.querySelector('.close__icon');
+    const body = document.querySelector('body');
+    const form = document.querySelector('.form__container__inputs');
 
 
-modalOpen.onclick = function(){
-    modalForm.style.display = "block";
-    body.style.overflow = "hidden";            
-}
-modalClose.onclick = function(){
-    modalForm.style.display = "none";
-    body.style.overflow = "auto";
-}
-window.onclick = function(element){
-    if(element.target === modalForm){
-        modalForm.style.display = "none";
-        body.style.overflow = "auto";
+    modalOpen.addEventListener('click', () => {
+        modalForm.classList.toggle('open');
+        body.classList.toggle('open')
+    });
+    modalClose.addEventListener('click', () => {
+        modalForm.classList.toggle('open', false);
+        body.classList.toggle('open', false);
+    });
+    window.addEventListener('click', (e) => {
+        if (e.target === modalForm) {
+            modalForm.classList.toggle('open', false);
+            body.classList.toggle('open', false);
+        }
+    });
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const status = document.querySelector('.contact-form-status');
+        const data = new FormData(event.target);
+        try {
+            await fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+            status.innerHTML = "Thanks for your request!";
+            form.reset();
+        } catch {
+            status.innerHTML = "Oops! There was a problem requesting your form";
+        }
     }
-}  
-
-
-function symbolCounter(){
-    const nameInputValue = nameInput.value;
-    if (nameInputValue !== ""){
-        countField.style.display = "block";
-        nameInputContainer.style.margin = "0";
-    return countField.innerText = "You entered " + nameInputValue.length + " symbols";
-    } else {
-        nameInputContainer.style.margin = "0 0 24px 0"
-        return countField.style.display = "none"
-}
-    
-}
-setInterval(symbolCounter, 500);
-
+    form.addEventListener("submit", handleSubmit)
 })();
 
