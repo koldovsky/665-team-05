@@ -467,7 +467,7 @@
                         <div class="form__container__subtitle">
                             <h3 class="form__subtitle"><span class="form__dash"> — </span> Ask us anything.</h3>
                         </div>
-                        <form class="form__container__inputs" action="https://formspree.io/f/myyoejyq" method="post">
+                        <form class="form__container__inputs" action="https://formspree.io/f/myyoejyq" method="POST">
                             <div class="form__input__name input__container">
                                 <input name ="name"type="text" class="input__name input__style" placeholder="Your Name*" required>                                
                             </div>
@@ -482,9 +482,10 @@
                                 <textarea name = "comment" type="text" class="input__comment input__style" maxlength="2000"placeholder="Your massage"></textarea>
                             </div>
                             <div class="form__container__button">
-                                <button class="form__button" type="submit" >Request a quote +</button>
+                                <input class="form__button" type="submit" value = "Request a quote +">
                             </div>
                         </form>
+                        <p class="contact-form-status"></p>
                     </div>
                 </div>
             </div>
