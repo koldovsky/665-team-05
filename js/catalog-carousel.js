@@ -34,18 +34,40 @@
     },
   ];
 
-  function renderCatalog(catalog) {
+  let currentSlideIdx = 0;
+
+  function renderCatalog() {
     const catalogContainer = document.querySelector(".catalog__body");
-    for (const item of catalog) {
-      catalogContainer.innerHTML += `
+    catalogContainer.innerHTML = `
             <div class="catalog__doby__shirts">
-            <img src="${item.img}" alt="${item.alt}"/>
-            <h4>${item.title}</h4>
-            <p>${item.descriptopn}</p>
+            <img src="${catalog[currentSlideIdx].img}" alt="${catalog[currentSlideIdx].alt}"/>
+            <h4>${catalog[currentSlideIdx].title}</h4>
+            <p>${catalog[currentSlideIdx].descriptopn}</p>
             </div>
             `;
-    }
   }
 
-  renderCatalog(catalog);
+  function showNextSlide() {
+    currentSlideIdx =
+      currentSlideIdx + 1 >= catalog.length ? 0 : currentSlideIdx + 1;
+    renderCatalog();
+  }
+
+  function showPrevSlide() {
+    currentSlideIdx =
+      currentSlideIdx - 1 < 0 ? catalog.length - 1 : currentSlideIdx - 1;
+    renderCatalog();
+  }
+
+  renderCatalog();
+
+  document
+    .querySelector(".catalog__all_body_button_forward")
+    .addEventListener("click", showNextSlide);
+
+  document
+    .querySelector(".catalog__all_body_button_back")
+    .addEventListener("click", showPrevSlide);
+
+  // setInterval(showNextSlide, 15000);
 })();

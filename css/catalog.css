@@ -33,6 +33,11 @@
   margin: 15px;
 }
 
+.catalog__all_body {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
 /* .catalog {
     max-width: 420px;
     margin: auto;
