@@ -1,31 +1,10 @@
 (function() {
-    const cards = [
-        {
-            id: "1",
-            title: "Knitted Midi Dress",
-            imgUrl: "img/collection-block/card__knitted-midi-dress.png",
-            price: 150.00
-        },
-        {
-            id: "2",
-            title: "Blazer Dress",
-            imgUrl: "img/collection-block/card__blazer-dress.png",
-            price: 120.00
-        },
-        {
-            id: "3",
-            title: "White Blazer",
-            imgUrl: "img/collection-block/card__white-blazer.png",
-            price: 80.00
-        },
-        {
-            id: "4",
-            title: "Lace Top",
-            imgUrl: "img/collection-block/card__lace-top.png",
-            price: 20.00
-        }
 
-    ];
+    async function loadCollectionsCards() {
+        const response = await fetch('collection-cards.json')
+        const cards = await response.json();
+        renderCollectionsCards(cards);
+    }
 
     function renderCollectionsCards(cards) {
         const cardsContainer = document.querySelector(".collection__cards");
@@ -45,6 +24,6 @@
         }
     }
 
-    renderCollectionsCards(cards);
+    loadCollectionsCards(cards);
 
 })();
