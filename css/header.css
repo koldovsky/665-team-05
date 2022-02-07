@@ -1,6 +1,11 @@
 /* Roman Grycyshyn Block Start 
 Mobile Version */
 
+.burger__container {
+    display: none;
+    visibility: hidden;
+}
+
 .header__top-row {
     display: flex;
     justify-content: space-between;
