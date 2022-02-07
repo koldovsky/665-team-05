@@ -77,6 +77,7 @@
     font-weight: 700;
     font-stretch: 100%;
     color: var(--font-color-sample-1);
+    background-color: transparent;
 }
 .customization__button__button:hover{
     background-color: var(--font-color-sample-1);
