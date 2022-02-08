@@ -11,34 +11,35 @@
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <section class="header__entry-block">
             <!-- Sofiia block start-->
             <div class="header__top-row">
                 <div class="header__top-row-logo">
-                    <img src="img/logo.svg" alt="Fashion House Logo" />
+                    <img src="img/logo.svg" alt="Fashion House Logo"/>
                 </div>
                 <nav class="header__nav">
                     <a href="#about-us">About Us</a>
                     <a href="#catalog">Catalog</a>
-                    <a href="#collection__block">Collection</a>
-                    <a href="#">Contact us</a>
+                    <a href="#collection">Collection</a>
+                    <a href="#form__title">Contact us</a>
                 </nav>
                 <!-- Roman Hrytsyshyn Burger Menu start -->
-                <div class="burger__container">
-                    <div class="header__burger" id="header__burger">
+                <div class="header__burger" id="header__burger">
+                    <div class="burger__logo-container">
+                        <img src="img/logo.svg" alt="Fashion House Logo" class="logo-in-burger"/>
                         <a href="#" class="header__burger-logo" id="header__burger-logo">☰</a>
-                    </div>
+                    </div> 
                     <div class="burger__wrapper">
                         <nav class="burger__navigation-menu-points">
                             <a href="#about-us" class="burger__nav-link burger__about-us">About Us</a>
                             <a href="#catalog" class="burger__nav-link burger__catalog">Catalog</a>
-                            <a href="#collection__block" class="burger__nav-link burger__collection">Collection</a>
-                            <a href="#" class="burger__nav-link burger__contact-us">Contact us</a>
+                            <a href="#collection__header" class="burger__nav-link burger__collection">Collection</a>
+                            <a href="#form__title" class="burger__nav-link burger__contact-us">Contact us</a>
                         </nav>
                     </div>
-                </div>
+                </div>    
                 <!-- Burger Menu end -->
             </div>
             <!-- Sofiia block end-->
@@ -341,6 +342,29 @@
         </div>
         <!-- Sofiia block end-->
 
+        <!--Roman Fedoriv start block -->
+        <section class="gallery">
+            <div class="gallery__inner-container">
+                <div class="gallery__title"><h2 class="gallery__title__name">GALLERY</h2></div>
+                <div class="gallery__subtitle"><h3 class="gallery__subtitle__name"><span class="gallery__subtitle__dash">
+                    — </span>Trendy Looks of Your Spring</h3></div>
+                <div class="gallery__text"><p class="gallery__text__paragraph"> Stay playful and romantic this spring with the new collection by Jolly House.</p></div>
+                <div class="gallery__images-container">
+                    <div class="gallery__inner-left__images-container">
+                    <div class="gallery__image-container"> <img src="img/gallery/women-1.png" alt="" class="gallery__image"> </div>
+                    <div class="gallery__image-container"> <img src="img/gallery/women-2.png" alt="" class="gallery__image"> </div>
+                    <div class="gallery__image-container"> <img src="img/gallery/women-3.png" alt="" class="gallery__image"> </div>
+                  </div>  
+                  <div class="gallery__inner-right__images-container">
+                    <div class="gallery__image-container"> <img src="img/gallery/women-4.png" alt="" class="gallery__image"> </div>
+                    <div class="gallery__image-container"> <img src="img/gallery/women-5.png" alt="" class="gallery__image"> </div>
+                    <div class="gallery__image-container"> <img src="img/gallery/women-6.png" alt="" class="gallery__image"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Roman Fedoriv end block -->
+
         <!--Svitlana Stasiuk block start-->
         <section class="trendy">
             <div class="trendy__background">
@@ -555,6 +579,7 @@
     <script src="js/relaxes-why_choose.js"></script>
     <script src="js/clock-trendy.js"></script>
     <script src="js/catalog-carousel.js"></script>
+    <script src="js/header-burger.js"></script>
     <script src="js/countdown.js"></script>
   </body>
 

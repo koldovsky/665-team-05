@@ -1,28 +1,76 @@
 /* Roman Grycyshyn Block Start 
 Mobile Version */
 
-.burger__container {
-    display: none;
-    visibility: hidden;
+.body.lock {
+    overflow: hidden;
 }
 
-.header__top-row {
+.burger__logo-container {
     display: flex;
-    justify-content: space-between;
-}
-
-.header__burger {
     flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 30px;
-    margin-right: 20px;
+    justify-content: space-between;
+    margin-left: 26px;
+    margin-right: 24px;
+    padding-top: 35px;
 }
 
 .header__burger-logo {
-    color: var(--font-color-sample-3);
-    display: inline;
-    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 26px;
     text-decoration: none;
+    font-family: var(--font-nunito-family);
+    z-index: 150;
+}
+
+.logo-in-burger {
+    width: 96px;
+    height: auto;
+    z-index: 151;
+}
+
+.burger__wrapper {
+    display: none;
+    visibility: hidden;  
+}
+
+.burger__wrapper.active {
+    display: contents;
+    visibility: visible;
+}
+
+.burger__navigation-menu-points {
+    display: contents;
+    visibility: visible;
+}
+
+.burger__navigation-menu-points.active {
+    align-items: center;
+    background-color: var(--dash-color);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    left: 0; 
+    padding-top: 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 77; 
+}
+
+.burger__nav-link {
+    font-family: var(--font-nunito-family);
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.burger__nav-link:hover {
+    text-decoration: underline;
 }
 
 .header__slogan__dash {
@@ -34,6 +82,7 @@ Mobile Version */
     height: auto;
     padding-top: 29px;
     margin-left: 24px;
+    z-index: 100;
 }
 
 .header__info {
@@ -131,6 +180,7 @@ Mobile Version */
 /* Roman Grycyshyn Desktop Vesion Start */
 
 @media (min-width: 600px) {
+
     .header__entry-block {
         background-position: 70% 50%;
         background-size: cover;
@@ -223,10 +273,22 @@ Mobile Version */
 
 /* Roman Grycyshyn Desktop Vesion End */
 
+@media (max-width: 989px) {
+    .header__top-row-logo {
+        display: none;
+        visibility: hidden;
+    }
+}
+
 
 /*Sofiia block start*/
 
 @media (min-width: 990px) {
+    .burger__container {
+        display: none;
+        visibility: hidden;
+    }
+
     .header__top-row {
         display: flex;
         align-items: center;
