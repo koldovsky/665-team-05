@@ -1,4 +1,4 @@
-(function() {
+/* (function() {
 
     async function loadCollectionsCards() {
         const response = await fetch('collection-cards.json')
@@ -27,3 +27,4 @@
     loadCollectionsCards(cards);
 
 })();
+*/
