@@ -46,6 +46,42 @@
 .trendy__subtitle__name {
     line-height: 33.6px;
 }
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.countdown-item {
+    flex-grow: 4;
+    border: 1px solid var(--countdown-border);
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.style-countdown {
+    font-family: Bebas Neue,cursive;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.countdown-text {
+    font-family: PT Sans,sans-serif;
+    font-size: 18px;
+    color: var(--font-color-background);
+    opacity: .54;
+    text-align: center;
+}
+
+.style-countdown, .countdown-text {
+    color: inherit;
+    fill: currentColor;
+    text-anchor: middle;
+}
 .trendy__box {
     padding-top: 20px;  
 }
