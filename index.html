@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <section class="header__entry-block">
             <!-- Sofiia block start-->
             <div class="header__top-row">
                 <div class="header__top-row-logo">
-                    <img src="img/logo.svg" alt="Fashion House Logo" />
+                    <img src="img/logo.svg" alt="Fashion House Logo"/>
                 </div>
                 <nav class="header__nav">
                     <a href="#about-us">About Us</a>
@@ -26,10 +26,11 @@
                     <a href="#">Contact us</a>
                 </nav>
                 <!-- Roman Hrytsyshyn Burger Menu start -->
-                <div class="burger__container">
-                    <div class="header__burger" id="header__burger">
+                <div class="header__burger" id="header__burger">
+                    <div class="burger__logo-container">
+                        <img src="img/logo.svg" alt="Fashion House Logo" class="logo-in-burger"/>
                         <a href="#" class="header__burger-logo" id="header__burger-logo">☰</a>
-                    </div>
+                    </div> 
                     <div class="burger__wrapper">
                         <nav class="burger__navigation-menu-points">
                             <a href="#about-us" class="burger__nav-link burger__about-us">About Us</a>
@@ -38,7 +39,7 @@
                             <a href="#" class="burger__nav-link burger__contact-us">Contact us</a>
                         </nav>
                     </div>
-                </div>
+                </div>    
                 <!-- Burger Menu end -->
             </div>
             <!-- Sofiia block end-->
@@ -519,6 +520,7 @@
     <script src="js/relaxes-why_choose.js"></script>
     <script src="js/clock-trendy.js"></script>
     <script src="js/catalog-carousel.js"></script>
+    <script src="js/header-burger.js"></script>
   </body>
 
 </html>
