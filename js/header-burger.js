@@ -3,6 +3,7 @@
     const navigationBody = document.querySelector(".burger__wrapper");
     const menuPoints = document.querySelector(".burger__navigation-menu-points");
     iconBurger.addEventListener("click", function (e) {
+        document.querySelector(".header__burger-logo").innerHTML = "✕";
         iconBurger.classList.toggle("active");
         document.body.classList.toggle("lock");
         navigationBody.classList.toggle("active");
@@ -13,6 +14,7 @@
     navLinks.forEach((navLink) => {
         navLink.addEventListener("click", (_) => {
             if (iconBurger.classList.contains("active")) {
+              iconBurger.classList.remove("active");  
               document.body.classList.remove("lock");
               navigationBody.classList.remove("active");
               menuPoints.classList.remove("active");
