@@ -1,9 +1,9 @@
 (function() {
-    const countdownDays = document.querySelector('#countdown__days');
-    const countdownHours = document.querySelector('#countdown__hours');
-    const countdownMinutes = document.querySelector('#countdown__minutes');
-    const countdownSeconds = document.querySelector('#countdown__seconds');
-    const startTime = new Date('2022-08-01T24:00:00');
+    const countdownDays = document.querySelector('#trendy__countdown__days');
+    const countdownHours = document.querySelector('#trendy__countdown__hours');
+    const countdownMinutes = document.querySelector('#trendy__countdown__minutes');
+    const countdownSeconds = document.querySelector('#trendy__countdown__seconds');
+    const startTime = new Date('2022-03-01T24:00:00');
 
     function updateCountdown() {
         const currentDate = new Date();
