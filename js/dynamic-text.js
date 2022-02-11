@@ -1,7 +1,7 @@
 (function() {
     function printText( el ){
 
-	let letterTimeout = 70
+	let letterTimeout = 40
 
 	let text = el.innerHTML
 	let i = 1
