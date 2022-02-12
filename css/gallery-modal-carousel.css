@@ -2,7 +2,7 @@
     z-index: 10;
     display: none;
     background-color: black;
-    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -28,35 +28,80 @@
     justify-content: flex-end;
     cursor: pointer;
 }
-.gallery-carousel__images{
-    top: 33%;
+
+.gallery-carousel__images {
     position: absolute;
-    padding: 20px 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    max-width: 1200px;
 }
-    
-.gallery-carousel__images-forward{
+
+.gallery-carousel__images-forward {
     z-index: 10;
     right: 0;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 20px;
-    height: 34px;
-    padding: 40px 30px;
-    margin: auto;
+    height: 50px;
+    padding-right: 20px;
+    margin-right: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
     cursor: pointer;
-   
+    background-color: lightgray;
+    opacity: 0.5;
+    padding-top: 30px;
+
 }
-.gallery-carousel__images-back{
+
+.gallery-carousel__images-back {
     z-index: 10;
     left: 0;
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 20px;
-    height: 34px;
-    padding: 40px 30px;
-    margin: auto;
+    width: 40px;
+    height: 50px;
+    margin-left: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
     cursor: pointer;
-    
+    background-color: lightgray;
+    opacity: 0.5;
+    padding-top: 30px;
+}
+
+.btn-back {
+    background-color: lightgray;
+    background: transparent;
+    border: none;
+    color: rgb(80, 78, 78);
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;    
+}
+
+.btn-forward {
+    background-color: lightgray;
+    background: transparent;
+    border: none;
+    color: rgb(80, 78, 78);
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.gallery-carousel__images-back:hover {
+    background-color: rgb(126, 188, 247);
+}
+
+.gallery-carousel__images-forward:hover {
+    background-color: rgb(126, 188, 247);
 }

@@ -4,7 +4,7 @@
   const body = document.querySelector("body");
   const modalClose = document.querySelector(".gallery__close__icon");
   const btnBack = document.querySelector(".btn-back");
-  const btnForward = document.querySelector(".btn-forward");
+  const btnForward = document.querySelector(".gallery-carousel__images-forward");
 
   const slides = [
     `<div> class="gallery__image-container"> <img src="img/gallery/women-1.png" alt="" 
@@ -25,8 +25,7 @@
   function showCurrentSlide(index) {
     const slideContainer = document.querySelector('.gallery-carousel__images');
     slideContainer.innerHTML = slides[index];
-    counter = index;
-    return counter
+    counter = index;    
   }
 
   function showNextSlide() {
