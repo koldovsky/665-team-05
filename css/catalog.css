@@ -38,6 +38,12 @@
   grid-template-columns: 1fr 8fr 1fr;
 }
 
+.catalog__all_body_button_back,
+.catalog__all_body_button_forward {
+  border: none;
+  background-color: transparent;
+}
+
 /* .catalog {
     max-width: 420px;
     margin: auto;
