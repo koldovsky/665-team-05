@@ -5,7 +5,7 @@
       title: "Shirt & Tops",
       img: "img/catalog_block/girl1.jpg",
       alt: "girl in shirt",
-      descriptopn:
+      description:
         "Light tops and shirts made from natural materials such as linen, silk and others",
     },
     {
@@ -13,7 +13,7 @@
       title: "Dresses",
       img: "img/catalog_block/girl2.webp",
       alt: "girl in dress",
-      descriptopn:
+      description:
         "Casual and evening dresses in mini and midi lengths for your mazing looks",
     },
     {
@@ -21,7 +21,7 @@
       title: "Pants",
       img: "img/catalog_block/girl3.webp",
       alt: "girl in pants",
-      descriptopn:
+      description:
         "Pants made from natural fabrics and our own collection of jeans that will last you for years",
     },
     {
@@ -29,7 +29,7 @@
       title: "Accessories",
       img: "img/catalog_block/girl4.webp",
       alt: "girl with accessories",
-      descriptopn:
+      description:
         "Belts, rings, gloves necklaces and more for the finishing touch to your look",
     },
   ];
@@ -37,13 +37,14 @@
   let currentSlideIdx = 0;
 
   function renderCatalog() {
-    const catalogContainer = document.querySelector(".catalog__body");
+    const catalogContainer = document.querySelector(".catalog_carousel");
     catalogContainer.innerHTML = `
-            <div class="catalog__doby__shirts">
             <img src="${catalog[currentSlideIdx].img}" alt="${catalog[currentSlideIdx].alt}"/>
+            <br>
             <h4>${catalog[currentSlideIdx].title}</h4>
-            <p>${catalog[currentSlideIdx].descriptopn}</p>
-            </div>
+            <br>
+            <p>${catalog[currentSlideIdx].description}</p>
+            <br>
             `;
   }
 
@@ -62,11 +63,11 @@
   renderCatalog();
 
   document
-    .querySelector(".catalog__all_body_button_forward")
+    .querySelector(".catalog__body_button_forward")
     .addEventListener("click", showNextSlide);
 
   document
-    .querySelector(".catalog__all_body_button_back")
+    .querySelector(".catalog__body_button_back")
     .addEventListener("click", showPrevSlide);
 
   // setInterval(showNextSlide, 15000);
