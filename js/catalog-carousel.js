@@ -39,7 +39,9 @@
   function renderCatalog() {
     const catalogContainer = document.querySelector(".catalog_carousel");
     catalogContainer.innerHTML = `
+            <div class="img_container">
             <img src="${catalog[currentSlideIdx].img}" alt="${catalog[currentSlideIdx].alt}"/>
+            </div>
             <br>
             <h4>${catalog[currentSlideIdx].title}</h4>
             <br>
