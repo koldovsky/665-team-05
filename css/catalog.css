@@ -27,7 +27,6 @@
 }
 
 .catalog__body h4 {
-  font-size: 22px;
   color: rgb(33, 33, 33);
 }
 
@@ -66,6 +65,12 @@
 }
 
 @media (min-width: 768px) {
+  .catalog h3 {
+    font-size: 41px;
+  }
+  .catalog__body h4 {
+    font-size: 23px;
+  }
   .catalog_carousel {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,6 +79,16 @@
 }
 
 @media (min-width: 991px) {
+  .catalog h3 {
+    font-size: 48px;
+    color: rgb(33, 33, 33);
+  }
+  .catalog__header p {
+    color: rgb(116, 116, 116);
+  }
+  .catalog__body h4 {
+    font-size: 24px;
+  }
   .catalog_carousel {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 3%;
