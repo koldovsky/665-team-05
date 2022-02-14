@@ -79,6 +79,10 @@
 }
 
 @media (min-width: 991px) {
+  .catalog {
+    max-width: 1200px;
+    margin: auto;
+  }
   .catalog h3 {
     font-size: 48px;
     color: rgb(33, 33, 33);
