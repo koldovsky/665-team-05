@@ -26,6 +26,12 @@
   display: flex;
   gap: 20px;
 }
+@media (min-width:1200px) {
+  .gallery__images-container{
+    width: 1200px;    
+  }
+  
+}
 .gallery__inner-left__images-container {
   display: flex;
   flex-direction: column;

@@ -24,7 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -37,8 +37,11 @@
     text-align: left;
     vertical-align: baseline;
     line-height: 16.8px;
+    margin-top: 20px;
 }
-
+.why_choose_us__subtitle-box{
+   margin-top:20px;
+}
 .why_choose_us__slogan__name{
     font-size: inherit;
     vertical-align: baseline;
@@ -49,6 +52,7 @@
     font-stretch: 100%;
     font-style: normal;
     line-height: 28.5px;
+    margin-top: 20px;
 }
 .container {
     display: flex;
@@ -161,9 +165,6 @@
 
 .why_choose_us__dash {
     color: var(--dash-color);
-}
-.why_choose_us__subtitle__name {
-    line-height: 33.6px;
 }
 
 .why_choose_us__text__list{
