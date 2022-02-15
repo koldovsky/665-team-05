@@ -1,7 +1,7 @@
 .why_choose_us__background {
     background-image: url(../img/why_choose_us/mobile-background.jpg);
     position: relative;
-    position: 35.94% 53.05% ;
+    /* position: 35.94% 53.05% ; */
     object-fit: cover;
 }
 

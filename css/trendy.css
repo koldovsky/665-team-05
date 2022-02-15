@@ -1,6 +1,6 @@
 .trendy__background {
     background-image: url(../img/trendy/trendy.png);
-    background-position: relative;
+    /* background-position: relative; */
     background-position: 35.94% 53.05% ;
     transition: opacity;
     height: 535px;

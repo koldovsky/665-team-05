@@ -1,7 +1,7 @@
 .customization-background {
   background-image: url(../img/customization/mobile-background.jpg);
   position: relative;
-  position: 42.19% 0%;
+  /* position: 42.19% 0%; */
   object-fit: cover;
 }
 
