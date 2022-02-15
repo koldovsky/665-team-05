@@ -1,8 +1,12 @@
 .accessories {
   margin-top: 150px;
   margin-bottom: 80px;
+  margin-right: 40px;
 }
 
+.accessories__clock {
+  margin-left: 20px;
+}
 
 .accessories__first {
   display: flex;
